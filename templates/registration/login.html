@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container form-box">
+  <h2>Login</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn">Login</button>
+  </form>
+  <p class="small">Use the superuser account created via `createsuperuser`.</p>
+</div>
+{% endblock %}

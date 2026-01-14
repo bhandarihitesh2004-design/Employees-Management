@@ -1,0 +1,47 @@
+[
+  {
+    "model": "employees.employee",
+    "pk": 1,
+    "fields": {
+      "employee_id": "EMP001",
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "phone": "555-0100",
+      "department": "Engineering",
+      "role": "Software Engineer",
+      "salary": "90000.00",
+      "date_joined": "2021-06-15",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 2,
+    "fields": {
+      "employee_id": "EMP002",
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "phone": "555-0101",
+      "department": "Sales",
+      "role": "Sales Manager",
+      "salary": "75000.00",
+      "date_joined": "2020-02-01",
+      "status": "active"
+    }
+  },
+  {
+    "model": "employees.employee",
+    "pk": 3,
+    "fields": {
+      "employee_id": "EMP003",
+      "name": "Charlie Lee",
+      "email": "charlie@example.com",
+      "phone": "555-0102",
+      "department": "HR",
+      "role": "HR Specialist",
+      "salary": "60000.00",
+      "date_joined": "2019-09-10",
+      "status": "inactive"
+    }
+  }
+]
